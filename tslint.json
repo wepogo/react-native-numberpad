@@ -1,0 +1,40 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-prettier",
+    "./tsconfig.json"
+  ],
+  "jsRules": {},
+  "linterOptions": {
+    "exclude": ["*.json", "**/*.json"]
+  },
+  "rules": {
+    "interface-name": [false],
+    "max-classes-per-file": [false],
+    "member-ordering": false,
+    "no-bitwise": false,
+    "no-console": [false],
+    "no-default-export": true,
+    "no-unused-expression": {
+      "options": ["allow-fast-null-checks"]
+    },
+    "no-var-requires": false,
+    "object-literal-sort-keys": false,
+    "one-variable-per-declaration": false,
+    "ordered-imports": true,
+    "trailing-comma": [
+      true,
+      {
+        "multiline": {
+          "typeLiterals": "never",
+          "objects": "always",
+          "arrays": "always"
+        },
+        "singleline": "never"
+      }
+    ],
+    "semicolon": [true, "never"],
+    "variable-name": [false]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "react-native-numberpad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wepogo/react-native-numberpad.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wepogo/react-native-numberpad/issues"
+  },
+  "homepage": "https://github.com/wepogo/react-native-numberpad#readme",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-gesture-handler": "*"
+  },
+  "optionalDependencies": {
+    "react-navigation": "*",
+    "react-native-keyevent": "*"
+  },
+  "devDependencies": {
+    "tslint": "^5.14.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "tslint-react": "^4.0.0",
+    "typescript": "^3.5.3"
+  }
+}
